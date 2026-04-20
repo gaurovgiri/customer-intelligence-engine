@@ -1,0 +1,201 @@
+Customer_ID,Booking_Frequency,Avg_Spending,Preferred_Service,Last_Activity,Review_Text,Sentiment,Segment
+1001,7.0,421.32,Facial,2023-06-30,Too expensive for what you get.,Negative,Churned
+1002,11.0,413.15,Facial,2024-03-06,,,High-value
+1003,7.0,,Body Scrub,2023-08-25,Pretty standard experience.,Neutral,At-risk
+1004,11.0,257.74,Aromatherapy,2023-03-20,Worth every cent — flawless service.,Positive,High-value
+1005,4.0,104.29,Wellness Package,2023-11-17,Poor communication from staff.,Negative,At-risk
+1006,6.0,62.36,Hot Stone Therapy,2023-04-18,Waited 20 mins past my booking time.,Negative,Churned
+1007,12.0,490.2,Manicure,2023-03-07,Absolutely fantastic — will book again.,Positive,High-value
+1008,12.0,123.95,Aromatherapy,2023-05-18,Waited 20 mins past my booking time.,Negative,Churned
+1009,6.0,38.43,Hot Stone Therapy,2023-04-17,Won't be returning.,Negative,Churned
+1010,1.0,289.52,Manicure,2023-10-09,Waited 20 mins past my booking time.,Negative,Churned
+1011,12.0,507.27,Deep Tissue,2023-06-30,Going to make this a monthly ritual.,Positive,High-value
+1012,3.0,220.49,Facial,2023-07-27,Below my expectations.,Negative,At-risk
+1013,9.0,57.53,Deep Tissue,2023-05-25,The room was too cold.,Negative,Churned
+1014,7.0,117.7,Body Scrub,2023-10-12,Felt rushed throughout.,Negative,At-risk
+1015,2.0,495.21,Massage,2023-05-16,Very underwhelming experience.,Negative,Churned
+1016,2.0,221.93,Hot Stone Therapy,2023-04-16,Not as described — disappointing.,Negative,Churned
+1017,5.0,146.98,Deep Tissue,2023-12-26,Would consider coming back.,Neutral,At-risk
+1018,12.0,94.19,Manicure,2023-07-07,Won't be returning.,Negative,At-risk
+1019,3.0,476.02,Body Scrub,2024-02-06,,,At-risk
+1020,8.0,401.35,Facial,2023-03-03,Highly recommend to everyone.,Positive,High-value
+1021,6.0,300.15,Facial,2023-05-22,The room was too cold.,Negative,Churned
+1022,2.0,410.94,Massage,2023-10-17,Quality has dropped since my last visit.,Negative,Churned
+1023,10.0,468.99,Manicure,2023-07-01,Perfect from start to finish.,Positive,High-value
+1024,8.0,311.67,Manicure,2023-07-19,Professional and deeply relaxing.,Positive,High-value
+1025,9.0,501.17,Manicure,2023-08-27,Professional and deeply relaxing.,Positive,High-value
+1026,2.0,,Massage,2023-06-21,Won't be returning.,Negative,Churned
+1027,10.0,503.15,Manicure,2023-09-21,Worth every cent — flawless service.,Positive,High-value
+1028,12.0,168.86,Facial,2023-10-22,Won't be returning.,Negative,At-risk
+1029,1.0,42.58,Wellness Package,2024-03-18,Therapist seemed distracted.,Negative,Churned
+1030,8.0,226.52,Aromatherapy,2023-11-12,Neither great nor bad.,Neutral,At-risk
+1031,8.0,41.83,Manicure,2024-01-06,Going to make this a monthly ritual.,Positive,Loyal
+1032,8.0,388.57,Hot Stone Therapy,2023-06-12,Loved every minute!,Positive,High-value
+1033,11.0,70.91,Facial,2023-08-09,Poor communication from staff.,Negative,At-risk
+1034,10.0,91.2,Hot Stone Therapy,2023-11-13,Average — met expectations.,Neutral,At-risk
+1035,9.0,337.3,Wellness Package,2024-02-23,Genuinely the best in the city.,Positive,High-value
+1036,7.0,185.83,Aromatherapy,2023-08-24,Neither great nor bad.,Neutral,At-risk
+1037,5.0,388.86,Aromatherapy,2023-04-02,Felt rushed throughout.,Negative,Churned
+1038,6.0,465.3,Facial,2023-08-13,"Decent service, a bit pricey.",Neutral,At-risk
+1039,5.0,506.28,Body Scrub,2023-11-17,Neither great nor bad.,Neutral,At-risk
+1040,1.0,385.04,Manicure,2023-07-16,Felt rushed throughout.,Negative,Churned
+1041,7.0,54.61,Facial,2023-09-02,,,At-risk
+1042,10.0,47.33,Facial,2023-09-30,Quality has dropped since my last visit.,Negative,At-risk
+1043,7.0,265.55,Body Scrub,2023-12-22,Wouldn't recommend to a friend.,Negative,At-risk
+1044,4.0,475.17,Aromatherapy,2023-08-09,"I've had better, I've had worse.",Neutral,At-risk
+1045,11.0,133.48,Deep Tissue,2024-03-14,The staff made me feel so welcome.,Positive,Loyal
+1046,7.0,175.53,Hot Stone Therapy,2024-01-01,Genuinely the best in the city.,Positive,Loyal
+1047,12.0,485.9,Facial,2024-02-11,Left feeling completely renewed.,Positive,High-value
+1048,9.0,86.16,Aromatherapy,2023-06-17,Waited 20 mins past my booking time.,Negative,Churned
+1049,12.0,140.94,Massage,2023-04-22,Won't be returning.,Negative,Churned
+1050,11.0,192.31,Hot Stone Therapy,2023-04-14,Left more stressed than when I arrived.,Negative,Churned
+1051,9.0,189.23,Manicure,2023-08-15,Could improve the ambience.,Neutral,At-risk
+1052,1.0,145.55,Facial,2023-11-27,Too expensive for what you get.,Negative,Churned
+1053,4.0,206.0,Facial,2023-07-12,Not as described — disappointing.,Negative,At-risk
+1054,7.0,114.86,Facial,2023-11-11,Left more stressed than when I arrived.,Negative,At-risk
+1055,5.0,370.83,Manicure,2023-08-06,Below my expectations.,Negative,At-risk
+1056,12.0,153.4,Manicure,2023-05-17,Left more stressed than when I arrived.,Negative,Churned
+1057,6.0,141.1,Facial,2023-08-07,Left more stressed than when I arrived.,Negative,At-risk
+1058,4.0,211.36,Body Scrub,2024-02-04,Poor communication from staff.,Negative,At-risk
+1059,12.0,157.11,Deep Tissue,2023-03-07,Would not recommend at this price.,Negative,Churned
+1060,3.0,,Aromatherapy,2023-12-05,Very underwhelming experience.,Negative,At-risk
+1061,8.0,52.89,Manicure,2023-12-05,Good enough for the price.,Neutral,At-risk
+1062,2.0,278.8,Massage,2024-02-02,Waited 20 mins past my booking time.,Negative,Churned
+1063,7.0,170.14,Massage,2023-08-15,Very underwhelming experience.,Negative,At-risk
+1064,1.0,151.19,Massage,2023-11-18,Would not recommend at this price.,Negative,Churned
+1065,5.0,272.38,Massage,2023-10-19,Left more stressed than when I arrived.,Negative,At-risk
+1066,6.0,152.4,Hot Stone Therapy,2023-05-08,Very underwhelming experience.,Negative,Churned
+1067,7.0,404.39,Wellness Package,2023-11-25,Pretty standard experience.,Neutral,At-risk
+1068,1.0,388.18,Aromatherapy,2023-06-21,Too expensive for what you get.,Negative,Churned
+1069,5.0,341.67,Aromatherapy,2023-09-11,Overpriced for average work.,Negative,At-risk
+1070,6.0,294.85,Wellness Package,2023-07-31,,,At-risk
+1071,1.0,108.1,Deep Tissue,2023-09-22,Not as described — disappointing.,Negative,Churned
+1072,,372.47,Body Scrub,2023-07-12,Pretty standard experience.,Neutral,At-risk
+1073,4.0,193.09,Facial,2023-04-16,Very underwhelming experience.,Negative,Churned
+1074,3.0,427.61,Hot Stone Therapy,2023-10-31,"It was okay, nothing special.",Neutral,At-risk
+1075,7.0,119.57,Manicure,2023-11-20,"Decent service, a bit pricey.",Neutral,At-risk
+1076,7.0,489.31,Hot Stone Therapy,2023-11-19,Middle of the road service.,Neutral,At-risk
+1077,,200.42,Body Scrub,2023-10-28,"I've had better, I've had worse.",Neutral,At-risk
+1078,10.0,160.1,Body Scrub,2023-07-19,Satisfactory overall.,Neutral,At-risk
+1079,10.0,511.35,Hot Stone Therapy,2024-01-27,Best massage I've ever had.,Positive,High-value
+1080,1.0,152.3,Aromatherapy,2023-05-28,Below my expectations.,Negative,Churned
+1081,12.0,305.77,Aromatherapy,2023-10-19,Transformed my whole week.,Positive,High-value
+1082,11.0,,Manicure,2023-08-07,Could improve the ambience.,Neutral,At-risk
+1083,3.0,374.67,Aromatherapy,2023-09-01,Overpriced for average work.,Negative,At-risk
+1084,3.0,450.32,Deep Tissue,2024-02-02,Felt rushed throughout.,Negative,At-risk
+1085,8.0,465.57,Wellness Package,2023-12-02,My therapist was exceptional.,Positive,High-value
+1086,11.0,488.78,Facial,2023-12-14,Worth every cent — flawless service.,Positive,High-value
+1087,4.0,316.63,Massage,2023-12-06,"Decent service, a bit pricey.",Neutral,At-risk
+1088,9.0,356.8,Facial,2023-04-13,"Five stars, no question.",Positive,High-value
+1089,2.0,112.99,Aromatherapy,2023-04-24,Felt rushed throughout.,Negative,Churned
+1090,2.0,370.57,Facial,2023-09-01,Very underwhelming experience.,Negative,Churned
+1091,9.0,120.32,Deep Tissue,2024-01-19,Worth every cent — flawless service.,Neutral,Loyal
+1092,1.0,274.54,Hot Stone Therapy,2023-05-28,Very underwhelming experience.,Negative,Churned
+1093,4.0,212.74,Aromatherapy,2023-03-01,Wouldn't recommend to a friend.,Negative,Churned
+1094,7.0,384.66,Deep Tissue,2023-11-20,Too expensive for what you get.,Negative,At-risk
+1095,1.0,298.13,Deep Tissue,2023-03-22,Quality has dropped since my last visit.,Negative,Churned
+1096,6.0,163.62,Body Scrub,2023-08-02,"I've had better, I've had worse.",Neutral,At-risk
+1097,6.0,509.76,Wellness Package,2024-02-05,Highly recommend to everyone.,Neutral,Loyal
+1098,6.0,474.46,Aromatherapy,2024-02-29,,,Loyal
+1099,,204.79,Aromatherapy,2023-12-21,Felt rushed throughout.,Negative,Churned
+1100,12.0,359.43,Aromatherapy,2023-05-15,I floated out of there.,Positive,High-value
+1101,3.0,312.42,Body Scrub,2023-09-17,,,At-risk
+1102,1.0,56.15,Hot Stone Therapy,2023-10-07,Quality has dropped since my last visit.,Negative,Churned
+1103,12.0,262.92,Deep Tissue,2024-02-10,Highly recommend to everyone.,Positive,High-value
+1104,5.0,463.49,Massage,2023-03-13,Waited 20 mins past my booking time.,Negative,Churned
+1105,9.0,497.24,Massage,2023-04-13,Incredible attention to detail.,Positive,High-value
+1106,1.0,303.09,Aromatherapy,2023-12-23,Would not recommend at this price.,Negative,Churned
+1107,,510.46,Facial,2023-12-02,Waited 20 mins past my booking time.,Negative,At-risk
+1108,5.0,127.59,Hot Stone Therapy,2023-10-18,Pretty standard experience.,Neutral,At-risk
+1109,3.0,,Massage,2023-06-20,Not as described — disappointing.,Negative,Churned
+1110,10.0,489.04,Wellness Package,2024-01-29,Exceeded all my expectations.,Positive,High-value
+1111,3.0,311.48,Manicure,2023-06-21,Very underwhelming experience.,Negative,Churned
+1112,2.0,333.28,Facial,2023-04-20,Very underwhelming experience.,Negative,Churned
+1113,7.0,102.94,Massage,2023-10-24,"Reasonable, but room to improve.",Neutral,At-risk
+1114,10.0,460.53,Body Scrub,2023-06-28,My therapist was exceptional.,Positive,High-value
+1115,8.0,373.05,Manicure,2023-06-02,Booked again before I even left.,Positive,High-value
+1116,6.0,209.35,Massage,2023-10-09,Satisfactory overall.,Neutral,At-risk
+1117,7.0,238.59,Hot Stone Therapy,2023-05-26,Too expensive for what you get.,Negative,Churned
+1118,9.0,331.58,Hot Stone Therapy,2023-05-16,"Five stars, no question.",Positive,High-value
+1119,10.0,37.51,Manicure,2024-02-20,I floated out of there.,Neutral,Loyal
+1120,4.0,350.23,Hot Stone Therapy,2023-11-06,Wouldn't recommend to a friend.,Negative,At-risk
+1121,12.0,465.01,Deep Tissue,2023-11-05,Worth every cent — flawless service.,Positive,High-value
+1122,12.0,315.75,Hot Stone Therapy,2023-06-13,Loved every minute!,Positive,High-value
+1123,7.0,360.93,Hot Stone Therapy,2024-02-05,Good enough for the price.,Positive,Loyal
+1124,9.0,110.2,Body Scrub,2023-09-19,Average — met expectations.,Neutral,At-risk
+1125,6.0,321.55,Body Scrub,2023-04-20,Overpriced for average work.,Negative,Churned
+1126,1.0,53.11,Massage,2023-05-06,Waited 20 mins past my booking time.,Negative,Churned
+1127,6.0,295.48,Hot Stone Therapy,2023-12-17,Waited 20 mins past my booking time.,Negative,At-risk
+1128,1.0,436.52,Hot Stone Therapy,2024-01-27,Below my expectations.,Negative,Churned
+1129,12.0,503.15,Facial,2023-12-15,Such a relaxing experience.,Positive,High-value
+1130,4.0,443.38,Wellness Package,2023-03-21,Not as described — disappointing.,Negative,Churned
+1131,3.0,344.15,Manicure,2023-05-24,Waited 20 mins past my booking time.,Negative,Churned
+1132,2.0,285.41,Manicure,2023-10-21,,,Churned
+1133,3.0,420.67,Massage,2023-05-13,Poor communication from staff.,Negative,Churned
+1134,3.0,247.9,Deep Tissue,2023-04-16,Waited 20 mins past my booking time.,Negative,Churned
+1135,5.0,124.4,Deep Tissue,2023-05-14,Below my expectations.,Negative,Churned
+1136,7.0,242.73,Deep Tissue,2023-11-19,Fine but not remarkable.,Neutral,At-risk
+1137,10.0,478.88,Massage,2023-08-01,Highly recommend to everyone.,Positive,High-value
+1138,2.0,151.3,Body Scrub,2023-11-30,Waited 20 mins past my booking time.,Negative,Churned
+1139,9.0,355.2,Body Scrub,2023-03-20,Professional and deeply relaxing.,Positive,High-value
+1140,1.0,498.11,Aromatherapy,2023-09-17,Would not recommend at this price.,Negative,Churned
+1141,5.0,331.68,Facial,2023-07-24,Quality has dropped since my last visit.,Negative,At-risk
+1142,3.0,155.15,Wellness Package,2023-11-04,,,At-risk
+1143,3.0,402.56,Deep Tissue,2023-09-24,Poor communication from staff.,Negative,At-risk
+1144,12.0,57.31,Manicure,2023-12-24,Poor communication from staff.,Negative,At-risk
+1145,4.0,120.04,Manicure,2023-08-22,Overpriced for average work.,Negative,At-risk
+1146,10.0,273.43,Body Scrub,2024-02-17,Exactly what I needed.,Positive,High-value
+1147,4.0,119.0,Manicure,2023-08-18,Very underwhelming experience.,Negative,At-risk
+1148,5.0,228.27,Manicure,2024-03-17,"Five stars, no question.",Positive,Loyal
+1149,6.0,,Deep Tissue,2023-06-11,Felt rushed throughout.,Negative,Churned
+1150,4.0,216.69,Hot Stone Therapy,2023-07-21,Below my expectations.,Negative,At-risk
+1151,3.0,279.02,Massage,2023-07-14,,,At-risk
+1152,8.0,354.47,Wellness Package,2024-03-23,Exceeded all my expectations.,Positive,High-value
+1153,8.0,492.79,Aromatherapy,2023-07-13,Exceeded all my expectations.,Positive,High-value
+1154,1.0,455.59,Hot Stone Therapy,2023-10-19,Quality has dropped since my last visit.,Negative,Churned
+1155,11.0,423.46,Deep Tissue,2023-10-01,The staff made me feel so welcome.,Positive,High-value
+1156,3.0,346.99,Massage,2023-09-30,Too expensive for what you get.,Negative,At-risk
+1157,11.0,,Aromatherapy,2023-05-09,Professional and deeply relaxing.,Positive,High-value
+1158,1.0,501.18,Deep Tissue,2023-05-02,The room was too cold.,Negative,Churned
+1159,11.0,129.96,Deep Tissue,2024-03-15,Absolutely fantastic — will book again.,Positive,Loyal
+1160,,53.9,Deep Tissue,2023-07-29,Waited 20 mins past my booking time.,Negative,Churned
+1161,3.0,198.23,Wellness Package,2023-12-28,"Reasonable, but room to improve.",Neutral,At-risk
+1162,8.0,221.92,Facial,2023-12-28,Too expensive for what you get.,Negative,At-risk
+1163,2.0,161.44,Manicure,2023-03-02,Poor communication from staff.,Negative,Churned
+1164,4.0,371.05,Deep Tissue,2023-12-04,Pretty standard experience.,Neutral,At-risk
+1165,11.0,460.57,Wellness Package,2023-08-23,My therapist was exceptional.,Positive,High-value
+1166,,504.28,Manicure,2023-10-15,Very underwhelming experience.,Negative,At-risk
+1167,10.0,240.38,Deep Tissue,2023-09-17,Wouldn't recommend to a friend.,Negative,At-risk
+1168,3.0,515.39,Aromatherapy,2024-02-20,Too expensive for what you get.,Negative,At-risk
+1169,2.0,156.26,Body Scrub,2023-12-22,Won't be returning.,Negative,Churned
+1170,8.0,455.55,Hot Stone Therapy,2023-08-16,Exceeded all my expectations.,Positive,High-value
+1171,5.0,150.72,Wellness Package,2023-09-26,Waited 20 mins past my booking time.,Negative,At-risk
+1172,7.0,400.95,Hot Stone Therapy,2023-04-01,Wouldn't recommend to a friend.,Negative,Churned
+1173,1.0,294.15,Deep Tissue,2024-01-03,Too expensive for what you get.,Negative,Churned
+1174,9.0,190.22,Wellness Package,2023-09-22,Average — met expectations.,Neutral,At-risk
+1175,3.0,223.76,Aromatherapy,2023-08-07,The room was too cold.,Negative,At-risk
+1176,3.0,79.27,Aromatherapy,2023-06-17,Below my expectations.,Negative,Churned
+1177,4.0,313.12,Massage,2023-03-26,Won't be returning.,Negative,Churned
+1178,5.0,79.48,Body Scrub,2024-03-02,Neither great nor bad.,Neutral,Loyal
+1179,4.0,,Wellness Package,2024-02-03,Poor communication from staff.,Negative,At-risk
+1180,7.0,413.93,Massage,2024-02-17,Going to make this a monthly ritual.,Positive,Loyal
+1181,5.0,274.79,Wellness Package,2023-08-17,Good enough for the price.,Neutral,At-risk
+1182,10.0,249.14,Body Scrub,2023-08-25,Waited 20 mins past my booking time.,Negative,At-risk
+1183,11.0,,Manicure,2023-08-01,"Five stars, no question.",Positive,High-value
+1184,12.0,368.69,Manicure,2023-07-18,I floated out of there.,Positive,High-value
+1185,6.0,75.79,Manicure,2023-11-07,The room was too cold.,Negative,At-risk
+1186,8.0,70.29,Manicure,2023-06-18,Not as described — disappointing.,Negative,Churned
+1187,10.0,,Aromatherapy,2024-02-27,Genuinely the best in the city.,Positive,Loyal
+1188,,148.12,Aromatherapy,2023-11-12,"I've had better, I've had worse.",Neutral,At-risk
+1189,1.0,461.97,Massage,2023-11-03,Left more stressed than when I arrived.,Negative,Churned
+1190,7.0,513.21,Manicure,2023-11-16,Quality has dropped since my last visit.,Negative,At-risk
+1191,4.0,217.49,Body Scrub,2023-06-26,Won't be returning.,Negative,Churned
+1192,12.0,305.83,Wellness Package,2023-12-27,Best massage I've ever had.,Positive,High-value
+1193,10.0,474.58,Deep Tissue,2024-02-17,Absolutely fantastic — will book again.,Positive,High-value
+1194,3.0,158.04,Manicure,2023-07-29,"Not bad, just not memorable.",Neutral,At-risk
+1195,12.0,312.16,Hot Stone Therapy,2023-10-31,Professional and deeply relaxing.,Positive,High-value
+1196,12.0,407.09,Deep Tissue,2023-03-10,The staff made me feel so welcome.,Positive,High-value
+1197,9.0,395.94,Facial,2023-03-06,Highly recommend to everyone.,Positive,High-value
+1198,12.0,501.65,Aromatherapy,2023-09-18,,,High-value
+1199,12.0,173.57,Facial,2023-05-20,Felt rushed throughout.,Negative,Churned
+1200,1.0,143.44,Aromatherapy,2023-11-14,Wouldn't recommend to a friend.,Negative,Churned
