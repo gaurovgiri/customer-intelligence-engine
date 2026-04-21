@@ -1,3 +1,5 @@
+"""Dependency providers used by FastAPI route handlers."""
+
 from app.llm.factory import LLMFactory
 from app.services.memory_service import MemoryService
 from app.services.chat_service import ChatService
@@ -16,6 +18,7 @@ recommendation_service = RecommendService(settings.RECOMMENDATION_MODEL_PATH)
 
 
 def get_chat_service() -> ChatService:
+    """Create a chat service instance with shared singleton dependencies."""
     return ChatService(
         llm=llm,
         memory=memory,
@@ -23,7 +26,9 @@ def get_chat_service() -> ChatService:
     )
 
 def get_memory_service() -> MemoryService:
+    """Return the shared in-memory conversation store service."""
     return memory
 
 def get_recommendation_service() -> RecommendService:
+    """Return the shared recommendation service instance."""
     return recommendation_service

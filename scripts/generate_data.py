@@ -1,3 +1,5 @@
+"""Generate synthetic customer booking and sentiment data for experimentation."""
+
 import pandas as pd
 import numpy as np
 import random
@@ -44,6 +46,7 @@ negative = [
 start = datetime(2023, 1, 1)
 
 def assign_segment(freq, spend, days_since):
+    """Assign customer segment based on booking frequency, spend, and recency."""
     if freq >= 8 and spend >= 250:
         return "High-value"
     elif freq >= 5 and days_since <= 90:
@@ -54,6 +57,7 @@ def assign_segment(freq, spend, days_since):
         return "At-risk"
 
 def assign_review(seg):
+    """Sample review text and sentiment according to customer segment."""
     if seg == "High-value":
         return random.choice(positive), "Positive"
     elif seg == "Loyal":

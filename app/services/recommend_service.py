@@ -1,9 +1,14 @@
+"""Service-layer wrapper for personalized service recommendations."""
+
 import pickle
 from typing import List, Any
 
 
 class RecommendService:
+    """Load a trained recommendation model and serve top-N predictions."""
+
     def __init__(self, model_path: str):
+        """Initialize recommender components from a serialized artifact."""
         with open(model_path, "rb") as f:
             data = pickle.load(f)
 
@@ -14,6 +19,7 @@ class RecommendService:
         self.le = data.get("le")
 
     def recommend(self, customer_id: Any, n: int = 3) -> List[str]:
+        """Return the top-N recommended services for the given customer."""
         customer_id = str(customer_id)
 
         scores = [

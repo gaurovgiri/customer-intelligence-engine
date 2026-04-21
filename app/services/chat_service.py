@@ -1,3 +1,5 @@
+"""Business logic for intent-aware conversational responses."""
+
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain.chat_models import BaseChatModel
 from app.services.memory_service import MemoryService
@@ -7,12 +9,16 @@ from app.data.price import PRICE_TABLE
 import json
 
 class ChatService:
+    """Coordinate memory, intent detection, and LLM response generation."""
+
     def __init__(self, llm: BaseChatModel, memory:MemoryService, intent_service:IntentService):
+        """Initialize the chat orchestration service dependencies."""
         self.llm = llm
         self.memory = memory
         self.intent_model = intent_service
 
     def _build_user_message(self, message:str) -> HumanMessage:
+        """Build a human message enriched with predicted intent metadata."""
         intent, confidence = self.intent_model.predict(message)
         if not intent:
             intent = ''
@@ -28,6 +34,7 @@ class ChatService:
         return HumanMessage(message), intent, confidence
 
     def generate_response(self, user, message):
+        """Generate and persist an assistant response for a user message."""
         if not self.memory.get(user):
             system_prompt = SYSTEM_PROMPT_TEMPLATE.format(price_table=json.dumps(PRICE_TABLE))
             self.memory.save(user, SystemMessage(system_prompt))

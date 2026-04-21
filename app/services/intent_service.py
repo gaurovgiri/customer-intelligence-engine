@@ -1,15 +1,21 @@
+"""Intent classification service with optional confidence estimation."""
+
 import pickle
 from pathlib import Path
 from typing import Optional, Tuple
 
 
 class IntentService:
+    """Wrap an optional text classification pipeline for intent inference."""
+
     def __init__(self, pipeline=None, threshold: float = 0.55):
+        """Initialize with a loaded pipeline or disabled fallback mode."""
         self.pipeline = pipeline
         self.threshold = threshold
 
     @classmethod
     def from_path(cls, model_path: str, threshold: float = 0.55):
+        """Build the service from a serialized model path when available."""
         if not model_path:
             return cls(pipeline=None, threshold=threshold)
 
@@ -31,6 +37,7 @@ class IntentService:
         return cls(pipeline=pipeline, threshold=threshold)
 
     def _confidence(self, text: str, predicted_label: str) -> float:
+        """Estimate confidence for a predicted label using model probabilities."""
         if self.pipeline is None:
             return 0.0
 
@@ -54,6 +61,7 @@ class IntentService:
             return 0.0
 
     def predict(self, text: str) -> Tuple[Optional[str], float]:
+        """Predict intent label and confidence for an input text."""
         if self.pipeline is None:
             return None, 0.0
 

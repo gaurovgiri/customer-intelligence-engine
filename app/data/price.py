@@ -1,3 +1,5 @@
+"""Static pricing data used by the assistant prompt."""
+
 PRICE_TABLE = {
     "massage": "$80 – $150",
     "facial": "$70 – $120",

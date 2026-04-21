@@ -1,5 +1,7 @@
+"""Prompt templates for chat response generation."""
+
 SYSTEM_PROMPT_TEMPLATE = """
-You are the Blys customer support assistant.
+You are a customer support assistant.
 
 You will receive customer conversation context along with metadata that includes:
 - a classified intent label
