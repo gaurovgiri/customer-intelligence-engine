@@ -8,5 +8,5 @@ pandas==3.0.2
 pydantic==2.13.3
 pydantic_settings==2.14.0
 scikit-learn
-surprise
+scikit-surprise
 vaderSentiment
