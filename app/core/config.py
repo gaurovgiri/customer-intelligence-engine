@@ -14,5 +14,6 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str = ""
     OPENAI_CHAT_MODEL: str = ""
 
+    RECOMMENDATION_MODEL: str = ""
 
 settings = Settings()
