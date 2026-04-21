@@ -14,6 +14,9 @@ class Settings(BaseSettings):
     OPENAI_API_KEY: str = ""
     OPENAI_CHAT_MODEL: str = ""
 
-    RECOMMENDATION_MODEL: str = ""
+    INTENT_MODEL_PATH: str = ""
+    INTENT_CONFIDENCE_THRESHOLD: float = 0.55
+
+    RECOMMENDATION_MODEL_PATH: str = ""
 
 settings = Settings()

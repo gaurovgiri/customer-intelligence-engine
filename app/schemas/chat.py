@@ -7,3 +7,5 @@ class ChatRequest(BaseModel):
 
 class ChatResponse(BaseModel):
     message: str
+    intent: str
+    confidence: float

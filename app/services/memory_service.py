@@ -1,12 +1,13 @@
-from uuid import uuid4, UUID
+from uuid import uuid4
 from typing import Dict, Any, List
+from langchain_core.messages import BaseMessage
 
 class MemoryService:
     def __init__(self):
         self._id = uuid4()
-        self._memory: Dict[str, List[Any]] = {}
+        self._memory: Dict[str, List[BaseMessage]] = {}
 
-    def get(self, user: str) -> List[Any]:
+    def get(self, user: str) -> List[BaseMessage]:
         return self._memory.get(user, [])
     
     def create_new_user(self) -> str:
@@ -15,7 +16,7 @@ class MemoryService:
         self._memory[new_user] = []
         return new_user
 
-    def save(self, user: str, message: Any):
+    def save(self, user: str, message: BaseMessage):
         if user not in self._memory:
             raise RuntimeError("This user doesn't exists! Create a new user!")
         self._memory[user].append(message)
