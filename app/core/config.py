@@ -6,6 +6,8 @@ class Settings(BaseSettings):
         env_ignore_empty=True
     )
 
+    PROVIDER: str = ""
+
     GEMINI_API_KEY: str = ""
     GEMINI_CHAT_MODEL: str = ""
 
