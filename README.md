@@ -205,19 +205,20 @@ The compose file maps host port 80 to container port 8000.
 ## Quick API Examples
 
 Create a user ID:
-
-curl -X POST http://localhost:8000/v1/users/
+```bash
+curl -X POST http://localhost:8000/api/v1/users/
+```
 
 Chat request:
 ```bash
-curl -X POST http://localhost:8000/v1/chat/ \
+curl -X POST http://localhost:8000/api/v1/chat/ \
   -H "Content-Type: application/json" \
   -d '{"user_id":"<USER_ID>","message":"Can I reschedule my booking?"}'
 ```
 Recommendation request:
 
 ```bash
-curl -X POST http://localhost:8000/v1/recommend \
+curl -X POST http://localhost:8000/api/v1/recommend \
   -H "Content-Type: application/json" \
   -d '{"customer_id":"1012","top_n":3}'
 ```
